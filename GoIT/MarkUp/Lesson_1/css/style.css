@@ -1,4 +1,8 @@
+div {
+	background-color: white;
+}
 .page {
+	width: center;
 	background: #F8F8F8;
 	height: 1000px;
 	width: 700px;
