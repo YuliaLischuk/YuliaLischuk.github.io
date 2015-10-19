@@ -1,9 +1,9 @@
 div {
-	background-color: white;
+	background-color: blue;
 }
 .page {
-	width: center;
-	background: #F8F8F8;
+	position: absolute;
+	background: white;
 	height: 1000px;
 	width: 700px;
 }
@@ -33,6 +33,7 @@ li {
 a {
 	color: #0f533a;
 }
-.images{
-	text-align: center;
+.center {
+	display: block;
+	margin: 0 auto;
 }
