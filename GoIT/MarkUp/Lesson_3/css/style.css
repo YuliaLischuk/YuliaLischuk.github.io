@@ -5,8 +5,8 @@ body {
 }
 .wrapper {
 	background: #ffffff;
-	padding: 70px;
-	width: 1061px;
+	padding: 50px 70px;
+	width: 1060px;
 	margin: 0 auto;
 	box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
@@ -22,8 +22,9 @@ body {
 	margin-bottom: 40px;
 }
 .hdr-menu ul {
+	overflow: hidden;
 	background: #595757;
-	width: 967px;
+	width: 100%;
 	line-height: 30px;
 	margin: 30 0px;
 }
@@ -42,7 +43,6 @@ body {
 	background: linear-gradient(to top, #2f2f2f, #4a4a4a);
 	border-left: 1px solid #838383;
 	border-right: 1px solid #838383;
-	width: 130px;
 }
 
 /* CONTENT */
