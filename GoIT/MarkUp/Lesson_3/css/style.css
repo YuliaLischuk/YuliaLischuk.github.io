@@ -5,9 +5,9 @@ body {
 }
 .wrapper {
 	background: #ffffff;
-	padding: 50px 70px;
-	width: 1060px;
 	margin: 0 auto;
+	width: 970px;
+	padding: 50px 45px 60px 45px;
 	box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 .clearfix:after {
@@ -37,6 +37,7 @@ body {
 	display: block;
 	padding: 0 30px;
 	text-decoration: none;
+	font-size: 14px;
 	color: #ffffff;
 }
 .hdr-menu a:hover {
@@ -48,18 +49,23 @@ body {
 /* CONTENT */
 .content {
 	float: right;
-	width: 780px;
+	width: 678px;
 }
 .container {
 	min-height: 300px;
 	padding: 40px 0px 58px 0px;
 }
 .bicycle {
+	width: 678px;
+	height: 400px;
 	border: 1px solid #D3D3D3;
 	text-align: center;
 }
 p {
 	padding: 25px 25px 0px 25px;
+	font-size: 13px;
+	line-height: 1.5em;
+	letter-spacing: normal;
 }
 .left-menu {
 	float: left;
@@ -77,6 +83,7 @@ p {
 	text-decoration: none;
 	color: gray;
 	line-height: 40px;
+	font-size: 14px;
 }
 .left-menu li:hover {
 	background: #f9f9f9;
