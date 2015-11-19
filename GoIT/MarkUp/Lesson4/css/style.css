@@ -1,0 +1,174 @@
+body {
+	background: url(../img/background.png);
+	background-repeat: repeat-x;
+	font-family: Tahoma, Verdana, sans-serif;
+    line-height: 20px;
+    font-size: 14px;
+    color: #424c43;
+}
+.wrapper {
+	background: #ffffff;
+	width: 1000px;
+	margin: 0 auto;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/*HEADER*/
+	header {
+		overflow: hidden;
+		zoom: 1;
+		height: 213px;
+	}
+.logo {
+	 margin: 15px 30px 0;
+    float: left;
+}
+.contacts {
+    float: right;
+    font-family: Tahoma, Verdana, sans-serif;
+    line-height: 20px;
+    font-size: 12px;
+    color: #128aa7;
+    margin: 10px 30px;
+}
+.contacts h2 {
+	font-weight: bold;
+}
+.dirrection {
+	float: right;
+	clear: right;
+	 margin: 8px 30px 0px 0px;
+    padding-bottom: 10px;
+    font-size: 9px;
+}
+.country {
+	display: inline-block;
+	text-align: center;
+    width: 62px;
+}
+.country a {
+	line-height: 14px;
+	color: #128aa7;	
+	font-size: 12px;
+}
+
+/*PAGE*/
+.page {
+	
+	width: 1000px;
+	margin: 0 auto;
+}
+.photo img {
+	border-top: 1px solid #128aa7;
+	border-bottom:  1px solid #128aa7; 
+}
+/*MENU*/
+.menu {
+	margin-top: -5px;
+	border-bottom: 1px solid black;
+	position: relative;
+	background: #343434;	
+	-webkit-box-shadow: 1px 2px 2px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 1px 2px 2px 0px rgba(0,0,0,0.5);
+	box-shadow: 1px 2px 2px 0px rgba(0,0,0,0.5);
+} 
+.nav{
+	width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000000;
+}
+.naw ul {
+	position: relative;
+    overflow: hidden;
+	background: #595757;
+	width: 100%;
+	line-height: 30px;	
+}
+.nav li{
+	float:left;
+	position:relative;
+	line-height: 30px;
+    padding: 0 20px;
+}
+.nav li a{
+	display:block;
+	text-align: center;
+	line-height: 30px;
+	padding:5px 30px 5px 5px;
+	color:#fff;
+	background:#343434;
+	text-decoration:none;
+}
+.nav li a:hover{
+	color:#fff;
+}
+/*DROP-DOWN MENU*/
+.nav ul{
+	position:absolute;
+	left:-9999px; /* Скрываем за экраном, когда не нужно (данный метод лучше, чем display:none;) */
+}
+.nav ul li{
+	float:none;
+	margin-left:0;
+}
+.nav ul a{
+	white-space:nowrap; /* Останавливаем перенос текста и создаем многострочный выпадающий пункт */
+	display:block;
+	-webkit-box-shadow: 1px 2px 2px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 1px 2px 2px 0px rgba(0,0,0,0.5);
+	box-shadow: 1px 2px 2px 0px rgba(0,0,0,0.5);
+}
+.nav li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
+	left:0; /* Приносим его обратно на экран, когда нужно */
+	opacity:1; /* Делаем непрозрачным */
+	padding:0px;
+}
+
+.nav li:hover ul li a:hover{ /* Устанавливаем стили для выпадающих пунктов, когда курсор наводится на конкретный пункт */
+	background:#343434;
+	border: 1px solid #505050;
+	box-shadow: 1px 2px 2px 0px rgba(0,0,0,0.5);
+}
+
+/*CONTENT*/
+.content {
+	background: url(../img/content-background.png) repeat-y;
+}
+.content h2 {
+	text-align: center;
+	font: 600 18px Tahoma;
+	line-height: 35px;
+}
+.column1{
+	float: left;
+	width: 180px;
+	padding: 0 15px 10px 13px;
+}
+.column2{
+	width: 546px;
+	margin: 0 auto;
+	padding: 7px 17px 10px;
+}
+.column3{
+	float: right;
+	width: 180px;
+	padding: 0 13px 10px 15px;
+}
+
+
+/*FOOTER*/
+footer {
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	line-height: 35px;
+
+}
