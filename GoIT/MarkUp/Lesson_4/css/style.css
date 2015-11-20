@@ -81,13 +81,9 @@ body {
 } 
 .nav{
 	width: 100%;
-<<<<<<< HEAD
-	margin-left: 60px;
+	margin-left: 45px;
     text-align: center;
-=======
     text-align: center;
-    border-bottom: 1px solid #000000;
->>>>>>> origin/master
 }
 .naw ul {
 	position: relative;
@@ -100,20 +96,13 @@ body {
 	float:left;
 	position:relative;
 	line-height: 30px;
-<<<<<<< HEAD
-=======
-    padding: 0 20px;
->>>>>>> origin/master
 }
 .nav li a{
 	display:block;
 	text-align: center;
 	line-height: 30px;
-<<<<<<< HEAD
 	padding: 0 30px;
-=======
-	padding:5px 30px 5px 5px;
->>>>>>> origin/master
+	padding: 0 30px;
 	color:#fff;
 	background:#343434;
 	text-decoration:none;
@@ -144,12 +133,7 @@ body {
 }
 
 .nav li:hover ul li a:hover{ /* Устанавливаем стили для выпадающих пунктов, когда курсор наводится на конкретный пункт */
-<<<<<<< HEAD
 	background:#404040;
-=======
-	background:#343434;
-	border: 1px solid #505050;
->>>>>>> origin/master
 	box-shadow: 1px 2px 2px 0px rgba(0,0,0,0.5);
 }
 
@@ -178,10 +162,6 @@ body {
 	padding: 0 13px 10px 15px;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
 /*FOOTER*/
 footer {
 	width: 1000px;
@@ -189,8 +169,3 @@ footer {
 	text-align: center;
 	color: #fff;
 	line-height: 35px;
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
-}
