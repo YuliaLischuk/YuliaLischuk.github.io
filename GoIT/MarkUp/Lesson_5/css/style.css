@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'Helvetica Neue Regular';
+    src: url('fonts/helveticaneue-thin-webfont.eot');
+    src: url('fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('fonts/helveticaneue-thin-webfont.woff') format('woff'),
+         url('fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.clearfix:after{
+    content:'';
+    clear: both;
+    display: block;
+}
+body {
+    font-family: 'Helvetica Neue Regular', Tahoma,  sans-serif;
+    font-size: 14px;
+    height: 100%;
+    background: url(../img/background.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+/*HEADER*/
+header {
+    font-family: 'Helvetica Neue Regular', Tahoma,  sans-serif;
+    background: #074c89;
+    background-image: url(../img/header_noise.png);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 37px;
+    margin-bottom: 30px;
+}
+/*MENU*/
+span {
+    text-decoration: underline;
+}
+ul {
+    margin-right: 20px;
+    line-height: 37px;
+}
+li {
+    float: right;
+    text-align: center;
+}
+a {
+    display: block;
+    text-decoration: none;
+    color: #60b5ed;
+    padding: 0 12px;
+}
+a:hover {
+    background: #4eabda;
+    color: #fff;
+}
+.flag {
+    display: inline-block;
+    clear: both;
+    padding: 0 10px;
+    margin-bottom: -10px;
+}
+.ajuda {
+    margin-right: 20px;
+}
+.fm {
+    border-left: 1px solid #56a2dc;
+    color: #fff;
+}
+.ola {
+    color: #fff;
+}
+
+
+/*BODY*/
+.page {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding-bottom: 35px;
+}
+.form-header {
+    width: 560px;
+    height: 65px;
+    background: rgba(0,0,0,0.5);
+    margin: 0 auto;
+    border-bottom: 2px solid rgba(255,255,255,0.5);
+}
+h1 {
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+.form-main {
+    width: 560px;
+    height: 550px;
+    background: rgba(0,0,0,0.5);
+    margin: 0 auto;
+    padding-top: 35px;
+}
+.fb {
+    width: 280px;
+    background: -webkit-gradient(linear, left top, right top, color-stop(4%,rgb(44,83,158)), color-stop(4%,rgb(44,83,158)), color-stop(10%,rgb(44,83,158)), color-stop(15%,rgb(44,83,158)), color-stop(23%,rgb(44,83,158)), color-stop(93%,rgb(44,83,158)));
+    margin:  auto;
+    border-top: 1px solid #7889b5;
+    border-radius: 3px;
+    position: relative;
+}
+.fb:before {
+    position: absolute;
+    height: 35px;
+    top: 10px;
+    left: 38px;
+    margin-top: -10px;
+    content: "";
+    border-left: 1px solid #213c71;
+    border-right: 1px solid #4d66a6;
+}
+.fb a {
+    display: block;
+    padding-left: 70px;
+    line-height: 35px;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.7);
+    font-family: Arial;
+}
+
+.fb span {
+    font-weight: bold;
+}
+
+.fb a:before {
+    background-image: url(../img/fb_logo.png);
+    position: absolute;
+    height: 20px;
+    width: 10px;
+    top: 50%;
+    left: 15px;
+    margin-top: -10px;
+    content: "";
+}
+.fb a:after {
+    background-image: url(../img/arrow_fb.png);
+    position: absolute;
+    height: 20px;
+    width: 10px;
+    top: 50%;
+    right: 27px;
+    margin-top: -10px;
+    content: "";
+}
+.ou_line {
+    width: 280px;
+    margin: 30px auto;
+}
+form {
+    width: 280px;
+    position: relative;
+    margin: 0 auto;
+}
+form .field {
+    width: 260px;
+    height: 35px;
+    background: #0f0f0f;
+    border: none;
+    border-bottom: 1px solid #484847;
+    margin-bottom: 15px; 
+    padding-left: 19px;
+}
+form .field:focus {
+    background: #1b5288;
+    -webkit-box-shadow: 0px 1px 10px 5px rgba(104,155,204,0.77);
+    -moz-box-shadow: 0px 1px 10px 5px rgba(104,155,204,0.77);
+    box-shadow: 0px 1px 10px 5px rgba(104,155,204,0.77);
+    color: #fff;
+}
+#create {
+    
+    margin: 20px 65px;
+    width: 150px;
+    height: 35px;
+    background: #469fd4;
+    color: #fff;
+    border-radius: 3px;
+}
+span {
+    text-decoration: none;
+    color: #ccc;
+    line-height: 18px;
+}
+.policy {
+    text-align: center;
+    font-size: 11px;
+    line-height: 15px;
+    color: #ccc;
+}
