@@ -1,12 +1,13 @@
 var number = +prompt('Укажите число возводимое в степень');
 var power = +prompt('Укажите степень')
 
-debugger;
+function pow(x, n){
+	var result = 1;
+	for (var i = 0; i < n; i++) {
+	result = result * x;
+	}
+return result;
+}
 
-var result = 1;
-
-for (var i = 0; i < power; i++) {
-	result = result * number;
-};
-
-console.log (result);
+var numberRaisedToPower = pow(number, power);
+console.log("Number raised to a power", numberRaisedToPower);
