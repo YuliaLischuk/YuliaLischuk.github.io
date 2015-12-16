@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Helvetica Neue Regular';
-    src: url('fonts/helveticaneue-thin-webfont.eot');
-    src: url('fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
-         url('fonts/helveticaneue-thin-webfont.woff') format('woff'),
-         url('fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+    src: url(../fonts/'fonts/helveticaneue-thin-webfont.eot');
+    src: url(../fonts/'fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url(../fonts/'fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url(../fonts/'fonts/helveticaneue-thin-webfont.woff') format('woff'),
+         url(../fonts/'fonts/helveticaneue-thin-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -69,8 +69,9 @@ a:hover {
 }
 .fm a {
     display: inline;
+    width: 162px;
     text-decoration: none;
-    color: #fff; 
+    padding: 10px;
 }
 .fm {
     display: block;
