@@ -1,0 +1,27 @@
+body {
+	background: #F8F8FF;
+}
+h1 {
+	text-align: center;
+}
+form {
+	margin: 0 auto;
+	padding: 20px;
+	width: 80%;
+	background: #FFF;
+	border-radius: 20px;
+	text-align: center;
+}
+label {
+		display: block;
+}
+input  {
+	margin-right: 7px;
+}
+input[type=checkbox] {
+	margin: 0 5px 0 0;
+}
+
+button {
+	margin-top: 30px;
+}
